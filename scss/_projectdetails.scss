@@ -1,0 +1,53 @@
+/*=================Styel Project Details Page============*/
+.project-details {
+  background-color: $backcolor;
+}
+.lavendar {
+  .left-doc {
+    margin-bottom: 30px;
+  }
+  .lavendec {
+    border-top: 1px solid #e6e6e6;
+  }
+  p {
+    font-size: $fontsizep;
+    font-family: $fontgenarl;
+    color: #777;
+    margin: 30px 0;
+  }
+  .right-doc {
+    padding-left: 50px;
+    color: #222;
+    margin-bottom: 30px;
+    h2 {
+      font-family: $fontgenhed;
+      font-size: 28px;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+    .list {
+      li {
+        margin-bottom: 15px;
+        .listtitle {
+          font-weight: bold;
+          display: inline-block;
+          width: 100px;
+        }
+        .listdec {
+          color: #777;
+        }
+        .liststar {
+          color: #f1cd09;
+          font-size: $fontsizep;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 800px) {
+  .right-doc {
+    padding-left: 15px !important;
+    border-top: 1px solid #e6e6e6;
+    padding-top: 30px;
+  }
+}

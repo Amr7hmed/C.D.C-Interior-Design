@@ -1,0 +1,97 @@
+/*=================Styel About Page============*/
+/*=================about-header-benner============*/
+.header-benner {
+  background: url(../img/banner/banner.jpg) no-repeat scroll center center;
+  padding: 120px 0;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 430px;
+  .overload {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0e0e0f7a;
+  }
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+
+    .banner_content {
+      color: $wihetcolor;
+      h2 {
+        font-family: $fontgenhed;
+        font-size: 36px;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+      }
+      .page_link {
+        a,
+        span {
+          color: $wihetcolor;
+          font-family: $fontgenarl;
+          font-size: $fontsizep;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header-benner .container .banner_content h2 {
+    font-size: 28px;
+  }
+}
+
+/*=================about-header-benner============*/
+.about_inner {
+  .about_left_text {
+    margin-bottom: 20px;
+    h6 {
+      color: #c6b069;
+      font-family: $fontgenhed;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    h3 {
+      font-family: $fontgenhed;
+      font-size: 36px;
+      font-weight: 500;
+      text-transform: uppercase;
+      margin: 30px 0;
+      color: #222222;
+    }
+    h5 {
+      color: #222222;
+      font-family: $fontgenhed;
+      font-size: 20px;
+      font-weight: 500;
+    }
+    p {
+      font-size: $fontsizep;
+      color: #777;
+    }
+  }
+}
+.img-fluid {
+  max-width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 800px) {
+  .about_inner {
+    .about_left_text {
+      h3 {
+        font-size: 28px;
+      }
+      h5 {
+        font-size: 18px;
+      }
+    }
+  }
+}

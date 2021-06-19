@@ -1,0 +1,25 @@
+/*=================Styel Element Page============*/
+/*=================Element-text-area============*/
+.sample-text-area {
+  h3 {
+    font-family: $fontgenarl;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  p {
+    font-family: $fontgenarl;
+    font-size: 15px;
+    color: #777;
+    margin: 20px 0;
+    b,
+    i,
+    sup,
+    sub,
+    del,
+    u {
+      color: $maincolor;
+    }
+  }
+}

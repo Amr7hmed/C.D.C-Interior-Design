@@ -1,0 +1,32 @@
+.mapBox {
+  height: 420px;
+  margin-bottom: 80px;
+}
+.contact_info {
+  .info_item {
+    width: 250px;
+    span {
+      color: $maincolor;
+      font-size: 20px;
+      margin-right: 15px;
+    }
+    h6 {
+      display: inline-block;
+      margin: 10px 0;
+      font-size: 16px;
+      font-weight: bold;
+      font-family: $fontgenarl;
+    }
+    p {
+      font-size: $fontsizep;
+      color: #777;
+    }
+  }
+}
+.contact_form {
+  .form-group {
+    textarea.form-control {
+      height: 140px;
+    }
+  }
+}
